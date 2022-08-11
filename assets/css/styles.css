@@ -1,34 +1,57 @@
 
+@media screen and (max-width: 425px) {
 
-.bg-orange{
-    background-color:orange ;
-}
+    *, ::before, ::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 
-.bg-color{
-    background-color: black;
+    .sm-height {
+      min-height: 100vh;
+    }
+
+    .bg-orange {
+        background-color: #e67b13;
+      }
+
+      .bg-grey-100{
+        background-color: #292a33;
 }
+        
+      }
+                
+       
+  
+      .bg-grey{
+          background-color: grey;
+        }
+        
+        .text-white{
+            color: rgb(255 255 255);
+        }
+        
+        .mt-6 {
+            margin-top: 1.5rem;
+            
+        }
+        .font-comfortaa{
+            
+            font-family: 'comfortaa', sans-serif;
+        }
+        
+        .text-6xl{
+            font-size: 3.75rem;
+        }
+        .text-base{
+            font-size: 1rem;
+        }
     
+    .bg-img {
+        background-image: linear-gradient(0deg, rgba(29,34,40,0.65), rgba(29,34,40,0.65)), url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/e80cd60dcd835355a75dc959/pexelsphoto219014.jpeg);
+      }
 
-   
 
-.text-white{
-    color: rgb(255 255 255);
-}
-
-.mt-6 {
-    margin-top: 1.5rem;
-    
-}
-.font-comfortaa{
-
-    font-family: comfortaa;
-}
-
-.text-6xl{
-    font-size: 3.75rem;
-}
-.text-base{
-    font-size: 1rem;
-}
 
 
